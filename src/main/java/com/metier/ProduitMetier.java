@@ -7,7 +7,7 @@ import org.springframework.data.domain.Page;
 import com.entities.Produit;
 
 public interface ProduitMetier {
-	public Produit ajouterProduit(Produit p,Long idCat);
+	public Produit ajouterProduit(Produit p);
 	public List<Produit> listProduits();
 	public Page<Produit> produitsParMotCle(String mc, int page, int size);
 	public Page<Produit> produitsParCategorie(Long idCat, int page, int size);

@@ -18,9 +18,9 @@ public class ProduitMetierImpl implements ProduitMetier{
 	private IProduitRepository prodrepository;
 	private CategorieMetier catm;
 	@Override
-	public Produit ajouterProduit(Produit p, Long idCat) {
-	Categorie c = catm.getCategorie(idCat);
-	p.setCategorie(c);
+	public Produit ajouterProduit(Produit p) {
+	/*Categorie c = catm.getCategorie(idCat);
+	p.setCategorie(c);*/
 		return prodrepository.save(p);
 	}
 
