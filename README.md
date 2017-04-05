@@ -1,2 +1,2 @@
 # E-commerce-Boot
-Hello La7ya
+Spring boot app for e-commerce 
